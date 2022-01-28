@@ -1,0 +1,190 @@
+/*------ CSS CUTOMIZATION ------*/
+.bx-search-alt,
+.bx-grid-alt {
+    font-size: 30px;
+}
+
+
+/*------- FONTS ------*/
+@font-face {
+    font-family: Jazera;
+    src: url(../font/alfont_com_AlFont_com_Avenir-Regular.otf);
+}
+
+.section-title {
+    font-family: "Oswald", sans-serif !important;
+    font-size: 75px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+}
+
+/*---- SERVICES SECTION ----- */
+.front > .icon_wrapper {
+    width: 90px;
+    height: 88px;
+}
+
+.icon_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html::selection {
+    background: red !important;
+    color: #fff !important;
+}
+
+.gmapsection {
+    width: 100% !important;
+    min-height: 50vh !important;
+}
+
+.iframe-maps {
+    width: 100%;
+    height: 100vh;
+}
+
+/*=============================================
+/ PRIMARY COLOR 
+/=============================================*/
+/**---- Background HEX ----**/
+.back, .play_video a.video_popup, .singleClient:after, .singleClient_2:after, .lbi_details .lbid_date:hover, .icon_box_2:after, .img_details, .testimoniTab ul li a span:after, .btn_link a,
+.btn_link.bg_black a:hover, .detail_TM h5, .singlePortfoio_content ul li a:after, .meipaly_paginations a:after, .meipaly_paginations span:after, .blog_headings span.blog_date, .post_author > a:after,
+.sfCloser:hover:after, .sfCloser:hover:before, .close-popup:hover:after, .close-popup:hover:before, .showit, .common_btn.red_bg:after, .testimonial_content .testi_icon, 
+.lbi_details .learnM:after
+{
+    background: #172774 !important;
+    color: #fff;
+}
+.singlefolio:after{
+    /*background: rgba(51, 170, 204, .8);*/
+    color: #172774 !important;
+    background: #172774;
+    opacity: 0.75 !important;
+}
+.single_wedo .overlay_wedo:after,
+.singleTM .tm_overlay:after{
+    /*background: rgba(51, 170, 204, .7);*/
+    /* color: #172774; */
+    background: #172774;
+    opacity: 0.75 !important;
+}
+.ready{
+    background: url(../../images/bg/4_8.jpg) no-repeat center center / cover;
+}
+
+/**---- Color Text ----**/
+.navigator a.active, .navigator a:hover, .black_color .navigator a.active, .black_color .navigator a:hover, .black_color .navigator a.active, .black_color .navigator a:hover,
+.singleTM:hover, .lbi_details h2 a:hover, .lbi_details .learnM:hover, .footer_1 .copyright a:hover, .footer_1 .contact_widgets p a:hover,
+.icon_box_2 a:hover, .wh_choose ul li i, .serviceArea ul li i, .nextprevPagination a:hover, .singlePortfoio_content p a:hover, .singlePortfoio_content ul li a:hover, .blog_headings .blog_metas a:hover,
+.post_author h3 a:hover, .post_author > a, .single-comment .authorDetails h5 a:hover, .single-comment .authorDetails span, .searchForms button[type="submit"]:hover,
+.color_settings .switch-btn.active, .color_settings .switch-btn:hover, .red_color
+{
+    color: #fff;
+    background: #172774 !important;
+}
+
+.span-banner {
+    color: #172774;
+}
+
+/**---- Border Color ----**/
+.back, .ab_img2:after, .agency_img1:after, .input-form.reqError, input.input-form:focus, textarea.input-form:focus
+{
+    border-color: #172774;
+    background: #172774;
+}
+
+.logo {
+    width: 200px !important;
+}
+
+.slider-bg-float {
+    position: relative !important;
+}
+
+.slider-bg-float::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+    z-index: 0;
+}
+
+.pageBanner {
+    background: url(../images-1/COVERT-FACEBOOKSFFF.jpg) no-repeat center center / cover !important;
+    background-attachment: fixed !important;
+}
+
+.funfact {
+    background: url(../images-1/COVERT-FACEBOOKSFFF.jpg) no-repeat center center / cover;
+    background-attachment: fixed !important;
+}
+
+.service_section {
+    background: url(../images-1/COVERT-FACEBOOKS-3.jpg) no-repeat center center / cover;
+    background-attachment: fixed !important;
+}
+
+.front, .back {
+    border: none !important; 
+}
+
+.what_wedo {
+    border: none !important;
+}
+
+.CL_content img {
+    max-width: 65% !important;
+}
+
+
+.ready {
+    background: url(../images-1/COVERT-FACEBOOKS-4.jpg) no-repeat center center / cover !important;
+    background-attachment: fixed !important;
+}
+
+.detail_TM > .team-name {
+    color: #fff !important;
+    background: none !important;
+}
+
+
+/*======= START STYLING PORTFOLIO SECTION ======*/
+.portfolio-grid-block {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 45rem);
+    row-gap: 0;
+}
+
+.singlefolio {
+    height: 100%;
+}
+
+.singlefolio img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+/*======= END STYLING PORTFOLIO SECTION ======*/
+
+
+
+
+
+/* START ABOUT PAGE STYLING SECTION */
+.pageBanner {
+    background: url(../images-1/COVERT-FACEBOOKS-3.jpg) no-repeat center center / cover;
+}
+/* END ABOUT PAGE STYLING SECTION */
